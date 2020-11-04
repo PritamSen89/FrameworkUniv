@@ -11,12 +11,14 @@ import MyNewFW
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var fwOutput: UILabel!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         let newMathHelper = MathHelper()
         let c = newMathHelper.myAdd(10, 20)
+        fwOutput.text = "\(c)"
         print(c)
     }
 
