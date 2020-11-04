@@ -1,0 +1,6 @@
+framework module Pods_DemoUsingNewFW {
+  umbrella header "Pods-DemoUsingNewFW-umbrella.h"
+
+  export *
+  module * { export * }
+}
